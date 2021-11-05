@@ -7,3 +7,10 @@ body {
 h1 {
     color: red;
 }
+
+.hero {
+    height: 75vh;
+    background: url("images/SAPgs1.png");
+}
+
+/*../ for up folders, ../../ goes up two, /word goes down, etc. */
