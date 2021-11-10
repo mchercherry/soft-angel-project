@@ -13,7 +13,6 @@ body {
     font-family: 'Caladea', serif;
     width: 1140px;
     height: 7603px;
-    letter-spacing: 1px;
     background: #F3EFE3;
     margin: 0 195px;
 }
@@ -34,6 +33,7 @@ h2 {
     font-size: 30px;
     color: #8B7133;
     font-weight: 400;
+    padding-bottom: 5px;
 }
 
 p {
@@ -46,11 +46,46 @@ p span {
 }
 
 .sectionWide p {
-    width: 800px;
+    width: 700px;
+    margin-left: 67px;
+    line-height: 20px;
 }
 
 .sectionSlim p {
-    width: 400px;
+    width: 335px;
+    margin-left: 67px;
+    line-height: 20px;
+}
+
+.sectionWide {
+  padding-top: 23px;
+  padding-bottom: 60px;
+  margin-left: 139px;
+}
+
+.sectionWide img {
+  margin: -10px 45px;
+  width: 36px;
+}
+
+.sectionSlim {
+  padding-top: 23px;
+  padding-bottom: 60px;
+  margin-left: 139px;
+}
+
+.sectionSlim img {
+  margin: -10px 45px;
+  width: 36px;
+}
+
+.stackedWithSlim {
+  margin-top: -60px;
+}
+
+.caption2 {
+  color: #0B2A54;
+  text-align: center;
 }
 
 /*Navigation stuff*/
@@ -60,6 +95,7 @@ nav {
     background: #0B2A54;
     height: 83px;
     padding: 5px;
+    z-index: 1;
   }
 
   nav img {
@@ -115,5 +151,72 @@ nav {
 .bigIdea span {
     font-size: 36px;
     color: #F3EFE3;
+}
+
+.section2 {
+  background: url(images/SAPgs2.png);
+  background-size: cover;
+  height: 457px;
+  position: relative;
+}
+
+#Grass {
+  margin: 195px 450px;
+}
+
+#map {
+  background: url(images/SAPMAP1.png);
+  background-size: cover; 
+  height: 200px;
+  width: 276px;
+  display: flex;
+  float: right;
+  margin-top: -265px;
+  margin-right: 200px;
+  position: relative;
+}
+
+#mapCaption {
+  display: flex;
+  float: right;
+  margin-top: -60px;
+  margin-right: 280px;
+}
+
+.caption {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.caption p {
+  text-align: right;
+  padding: 5px;
+  background: rgba(0,0,0,.75);
+  color: #F3EFE3;
+}
+
+#map2 {
+  background: url(images/SAPMAP2.png);
+  background-size: cover; 
+  height: 276.22px;
+  width: 349px;
+  display: flex;
+  float: left;
+  margin-top: 0;
+  margin-left: 150px;
+  position: relative;
+}
+
+#map3 {
+  background: url(images/SAPMAP3.png);
+  background-size: cover; 
+  height: 276.22px;
+  width: 349px;
+  display: flex;
+  float: right;
+  margin-top: 0;
+  margin-right: 150px;
+  position: relative;
 }
 /*../ for up folders, ../../ goes up two, /word goes down, etc. */
