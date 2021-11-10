@@ -1,16 +1,119 @@
-@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caladea&family=Ceviche+One&display=swap');
+
+html {
+    scroll-behavior: smooth;
+   }
+
+   * {
+    margin: 0;
+    padding: 0;
+  }
 
 body {
-    font-family: 'Ceviche One', cursive;
+    font-family: 'Caladea', serif;
+    width: 1140px;
+    height: 7603px;
+    letter-spacing: 1px;
+    background: #F3EFE3;
+    margin: 0 195px;
 }
 
-h1 {
-    color: red;
+#ohno {
+    margin: 0 auto;
 }
 
+/*General Font Stuff*/
+h1{
+    font-size: 48px;
+    color: #8B7133;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 30px;
+    color: #8B7133;
+    font-weight: 400;
+}
+
+p {
+    font-size: 14px;
+    color: #101001;
+}
+
+p span {
+    color: #8B7133;
+}
+
+.sectionWide p {
+    width: 800px;
+}
+
+.sectionSlim p {
+    width: 400px;
+}
+
+/*Navigation stuff*/
+nav {
+    position: sticky;
+    top: 0;
+    background: #0B2A54;
+    height: 83px;
+    padding: 5px;
+  }
+
+  nav img {
+    width: 168px;
+    padding-left: 140px;
+    padding-top: 10px;
+  }
+  
+  nav ul {
+    float: right;
+    margin-top: 40px;
+    padding-right: 150px;
+  }
+  
+  nav li {
+    list-style: none;
+    display: inline-block;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #F3EFE3;
+    transition: color .3s;
+    padding: 12px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #8B7133;
+  }
+
+  nav span {
+      color: #8B7133;
+  }
+
+/*Welcome welcome welcome!*/
 .hero {
-    height: 75vh;
-    background: url("images/SAPgs1.png");
+    background: url(images/SAPgs1.png);
+    background-size: cover;
+    height: 457px;
+    position: relative;
 }
 
+.bigIdea {
+    position: absolute;
+    margin: 150px 319px;
+    padding: 15px;
+    text-align: center;
+    background: rgba(255,255,255,.25);
+}
+
+.bigIdea span {
+    font-size: 36px;
+    color: #F3EFE3;
+}
 /*../ for up folders, ../../ goes up two, /word goes down, etc. */
