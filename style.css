@@ -2,6 +2,8 @@
 
 html {
     scroll-behavior: smooth;
+    max-width: 100%;
+    overflow-x: hidden;
    }
 
    * {
@@ -11,14 +13,14 @@ html {
 
 body {
     font-family: 'Caladea', serif;
-    width: 1140px;
     height: 7603px;
     background: #F3EFE3;
-    margin: 0 195px;
+    max-width: 100%;
 }
 
-#ohno {
-    margin: 0 auto;
+.light {
+    margin: 0 195px;
+    width: 1140px;
 }
 
 /*General Font Stuff*/
@@ -63,6 +65,10 @@ p span {
   margin-left: 139px;
 }
 
+.darkbox .sectionWide p {
+  color: #F3EFE3;
+}
+
 .sectionWide img {
   margin: -10px 45px;
   width: 36px;
@@ -72,6 +78,10 @@ p span {
   padding-top: 23px;
   padding-bottom: 60px;
   margin-left: 139px;
+}
+
+.darkbox .sectionSlim p {
+  color: #F3EFE3;
 }
 
 .sectionSlim img {
@@ -88,32 +98,42 @@ p span {
   text-align: center;
 }
 
+.dark {
+  background: #101001;
+  margin-top: 350px;
+}
+
+.darkbox {
+  margin: 0 195px;
+  width: 1140px;
+}
+
 /*Navigation stuff*/
 nav {
-    position: sticky;
-    top: 0;
-    background: #0B2A54;
-    height: 83px;
-    padding: 5px;
-    z-index: 1;
-  }
+  position: sticky;
+  top: 0;
+ background: #0B2A54;
+  height: 83px;
+  padding: 5px;
+  z-index: 2;
+}
 
   nav img {
     width: 168px;
     padding-left: 140px;
     padding-top: 10px;
-  }
+}
   
   nav ul {
     float: right;
     margin-top: 40px;
     padding-right: 150px;
-  }
+}
   
   nav li {
     list-style: none;
     display: inline-block;
-  }
+}
   
   nav a {
     text-decoration: none;
@@ -122,27 +142,30 @@ nav {
     padding: 12px;
     font-size: 14px;
     font-weight: bold;
-  }
+}
   
   nav a:hover {
     color: #8B7133;
-  }
+}
 
   nav span {
-      color: #8B7133;
-  }
+    color: #8B7133;
+}
 
 /*Welcome welcome welcome!*/
 .hero {
     background: url(images/SAPgs1.png);
     background-size: cover;
-    height: 457px;
     position: relative;
+    height: 500px;
+    width: 100vw;
+    margin: 0 -195px;
 }
 
 .bigIdea {
     position: absolute;
-    margin: 150px 319px;
+    margin: 200px 514px;
+    margin-right: 0;
     padding: 15px;
     text-align: center;
     background: rgba(255,255,255,.25);
@@ -156,12 +179,15 @@ nav {
 .section2 {
   background: url(images/SAPgs2.png);
   background-size: cover;
-  height: 457px;
+  height: 500px;
   position: relative;
+  width: 100vw;
+  margin: 0 -195px;
 }
 
 #Grass {
-  margin: 195px 450px;
+  margin: 225px 655px;
+  margin-right: 0;
 }
 
 #map {
@@ -219,4 +245,63 @@ nav {
   margin-right: 150px;
   position: relative;
 }
+
+#IDEM {
+  background: url(images/SAPgs3.png);
+  background-size: cover;
+  height: 500px;
+  position: relative;
+  width: 99vw;
+  margin: 0 -195px;
+}
+
+#Idea {
+  position: absolute;
+  background: none;
+  margin: 225px 695px;
+}
+
+#Idea h1 {
+  color: #101001;
+}
+
+.louiebox {
+  background: #0B2A54;
+  width: 589px;
+  height: 629px;
+  margin: 0 -195px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.louiebox img {
+  width: 589px;
+  height: 489px;
+  object-fit: cover;
+}
+
+#louiequote {
+  color: #F3EFE3;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  margin: 0 auto;
+  padding: 35px;
+}
+
+.inline {
+  position: absolute;
+  margin-left: 600px;
+  margin-top: -450px;
+}
+
+
+
 /*../ for up folders, ../../ goes up two, /word goes down, etc. */
+
+/*Media section I'm starting way too early cause I get nervous AH*/
+
+/* FOCUS ON YOUR WORK YOU USELESS HACK jesus fucking christ STOP
+@media(max-width: 950px) {
+}
+*/
