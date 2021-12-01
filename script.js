@@ -14,15 +14,25 @@ var flkty = new Flickity( '.main-carousel', {
   // options
 });
 
+var page = 0;
+var whee = 0;
 
-//var launch = 0;
+const today = document.querySelector('#donthurtme');
+const log = scrollY;
 
-//const IDEM = document.querySelectorAll('#IDEM');
+document.onscroll = update;
 
-//document.getElementById('IDEM').addEventListener(
-//  'focus', e => {
-//      var launch = 1;
-//});
+document.addEventListener('scroll', function(e) {
+  update();
+});
 
-//if (launch = 2) {
-//  window.location.href = "palm.html"};
+function update(e) {
+  var whee = log;
+  if (whee = 5000) {
+    var page = 3
+  };
+}
+
+//if (page = 3) {
+//  window.location.href = "palm.html"
+//};
