@@ -47,6 +47,24 @@ p span {
     color: #8B7133;
 }
 
+ol li {
+  counter-increment: list;
+  list-style-type: none;
+  margin-left: 100px;
+  margin-right: 257px;
+  padding: 7px;
+  font-size: 14px;
+}
+
+ol li span {
+  color: #8B7133;
+}
+
+ol li:before {
+  color: #8B7133;
+  content: counter(list) ". ";
+}
+
 .sectionWide p {
     width: 700px;
     margin-left: 67px;
@@ -98,12 +116,28 @@ p span {
   text-align: center;
 }
 
+.h2mimic {
+  font-size: 30px;
+  color: #8B7133;
+  font-weight: 400;
+}
+
 .dark {
   background: #101001;
   margin-top: 350px;
 }
 
 .darkbox {
+  margin: 0 195px;
+  width: 1140px;
+}
+
+.help {
+  background: url(images/gradient.png);
+  background-size: cover;
+}
+
+.fired {
   margin: 0 195px;
   width: 1140px;
 }
@@ -141,7 +175,6 @@ nav {
     transition: color .3s;
     padding: 12px;
     font-size: 14px;
-    font-weight: bold;
 }
   
   nav a:hover {
@@ -295,7 +328,125 @@ nav {
   margin-top: -450px;
 }
 
+/*Carousel Stuff*/
 
+.main-carousel {
+  margin: 0 195px;
+}
+
+.carousel-cell {
+  width: 203px; /* full width */
+  height: 308px; /* height of carousel */
+  margin-right: 50px;
+  background-color: #8B7133;
+  opacity: .5;
+  transition: .3s;
+}
+
+.carousel-cell.is-selected {
+  background-color: #0B2A54;
+  opacity: 1;
+}
+
+.carousel-cell p {
+  color: whitesmoke;
+  text-align: center;
+  padding: 2px;
+  font-style: italic;
+  font-size: 14px;
+}
+/*End*/
+
+.diagram {
+  margin-top: 50px;
+  margin-left: 226px;
+  width: 714px;
+  display: block;
+  border-top: 1.5px solid #8B7133;
+  border-bottom: 1.5px solid #8B7133;
+}
+
+.diagram h2 {
+  text-align: center;
+}
+
+.imscrewed {
+  width: 568px;
+  background-color: #0B2A54;
+  margin-left: 301px;
+  margin-top: 50px;
+}
+
+.imscrewed p {
+  color: #F3EFE3;
+  text-align: center;
+  padding: 10px 15px;
+}
+
+.underneath {
+  text-decoration: none;
+  font-weight: bold;
+  color: #101001;
+  transition: color .3s;
+  border-bottom: #101001 solid 1px;
+}
+
+.underneath:hover {
+  color: #8B7133;
+  border-bottom: #8B7133 solid 1px;
+}
+
+.spacer {
+  font-size: 50px;
+  height: 50px;
+  width: 99999px;
+  background: #101001;
+  color: #101001;
+}
+
+.section4 {
+  background: url(images/SAPgs4.png);
+  background-size: cover;
+  height: 500px;
+  position: relative;
+  width: 100vw;
+  margin: 0 -195px;
+}
+
+#Venus {
+  margin: 225px 607px;
+  margin-right: 0;
+}
+
+.imsotired {
+  margin: 0 397px;
+  text-align: center;
+}
+
+.imsotired p {
+  color: #0B2A54;
+  padding: 5px;
+}
+
+.inline2 {
+  position: absolute;
+  margin-left: 600px;
+  margin-top: -343px;
+}
+
+#today {
+  background: url(images/SAPgs5.png);
+  background-size: cover;
+  height: 500px;
+  position: relative;
+  width: 99vw;
+  margin: 0 -195px;
+}
+
+.xx53 {
+  font-size: 20px;
+  color: black;
+}
 
 /*../ for up folders, ../../ goes up two, /word goes down, etc. */
 

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+body {
+    background: black;
+}
+
+p {
+    font-family: 'Inconsolata', monospace;
+    color: whitesmoke;
+    line-height: 3;
+    font-size: 12px;
+    margin: 30px;
+    font-style: italic;
+}
+
+span {
+    margin: 50px;
+    font-size: 15px;
+    font-style: normal;
+}
+
+.louis {
+    color: blue;
+}
+
+.joe {
+    color: red;
+}
+
+.angel {
+    color: green;
+}

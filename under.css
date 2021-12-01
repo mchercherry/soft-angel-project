@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+body {
+    background: black;
+}
+
+p {
+    font-family: 'Amatic SC', cursive;
+    color: whitesmoke;
+    line-height: 2;
+    font-size: 22px;
+    margin: 30px;
+    text-align: center;
+    animation-name: opacity;
+    animation-duration: 30s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1
+}
+
+img {
+    position: fixed;
+    opacity: .1;
+    margin-left: 25%;
+    height: 680px;
+    animation-name: staring;
+    animation-duration: .4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes staring {
+    0% {margin-left: 23%; margin-top: 5px;}
+    3% {margin-left: 23%; margin-top: 5px;}
+    25% {margin-left: 25%; margin-top: 0px;}
+    40% {margin-left: 25%; margin-top: 0px;}
+    50% {margin-left: 20%; margin-top: 7px;}
+    60% {margin-left: 20%; margin-top: 7px;}
+    75% {margin-left: 21%; margin-top: -10px;}
+    85% {margin-left: 21%; margin-top: -10px;}
+    100% {margin-left: 24%; margin-top: -7px;}
+}
+
+@keyframes opacity {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
