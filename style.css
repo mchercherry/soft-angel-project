@@ -13,7 +13,7 @@ html {
 
 body {
     font-family: 'Caladea', serif;
-    height: 7603px;
+    /*height: 7603px;*/
     background: #F3EFE3;
     max-width: 100%;
 }
@@ -445,6 +445,41 @@ nav {
 
 .xx53 {
   font-size: 20px;
+  color: black;
+}
+
+#big1 {
+  font-size: 2rem;
+  line-height: 4rem;
+}
+
+#big2 {
+  font-size: 3rem;
+  line-height: 5rem;
+}
+
+#big3 {
+  font-size: 4rem;
+  line-height: 6rem;
+}
+
+#big4 {
+  font-size: 5rem;
+  line-height: 7rem;
+}
+
+#bigcluster {
+  font-size: 5rem;
+  line-height: 2rem;
+}
+
+#biggercluster {
+  font-size: 5rem;
+  line-height: 5rem;
+  color: white;
+}
+
+#palm {
   color: black;
 }
 
