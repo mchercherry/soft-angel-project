@@ -7,16 +7,28 @@ body {
 p {
     font-family: 'Inconsolata', monospace;
     color: whitesmoke;
-    line-height: 3;
-    font-size: 12px;
+    line-height: 2;
+    font-size: 13px;
     margin: 30px;
     font-style: italic;
+    margin-right: 40%;
+}
+
+.big {
+    font-size: 25px;
 }
 
 span {
     margin: 50px;
     font-size: 15px;
     font-style: normal;
+    line-height: 3;
+}
+
+br {
+    display: block; /* makes it have a width */
+    content: ""; /* clears default height */
+    margin-top: 10px; /* change this to whatever height you want it */
 }
 
 .louis {
@@ -41,4 +53,13 @@ span {
 
 .soft {
     color: magenta;
+}
+
+.intro {
+    background: url(images/louis1.png);
+}
+
+.eye {
+    background: url(images/louis2.png) no-repeat center center; 
+    height: 1000px;
 }
