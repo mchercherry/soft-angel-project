@@ -233,6 +233,12 @@ nav {
   margin-top: -265px;
   margin-right: 200px;
   position: relative;
+  transition: .3s;
+}
+
+#map:hover {
+  opacity: .7;
+  cursor: pointer;
 }
 
 #mapCaption {
@@ -555,6 +561,41 @@ nav {
 
 .helpme p {
   display: none;
+}
+
+.mapbig {
+  display: none;
+}
+
+.visible {
+  display: block;
+  position: fixed;
+  background-color: rgba(0,0,0,.5);
+  left: 0;
+  top:0;
+  height: 100vh;
+  width: 100vw;
+  overflow: auto;
+  z-index: 3;
+}
+
+.visible img {
+  margin: auto;
+  width: 50%;
+  margin-top: 5%;
+  margin-left: 25%;
+}
+
+.visible p {
+  text-align: center;
+  font-style: italic;
+  background-color: #0B2A54;
+  color: #F3EFE3;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: -5px;
+  font-size: 20px;
+  padding: 10px 0;
 }
 
 /*../ for up folders, ../../ goes up two, /word goes down, etc. */

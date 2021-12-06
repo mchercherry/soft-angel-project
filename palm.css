@@ -18,6 +18,11 @@ p {
     font-size: 25px;
 }
 
+.tran {
+    opacity: .1;
+    font-size: 17px;
+}
+
 span {
     margin: 50px;
     font-size: 15px;
@@ -62,4 +67,9 @@ br {
 .eye {
     background: url(images/louis2.png) no-repeat center center; 
     height: 1000px;
+}
+
+.isaac {
+    background: url(images/isaacsoft.png) no-repeat center center;
+    height: 1500px;
 }
