@@ -5,7 +5,8 @@ var flkty = new Flickity( elem, {
   percentPosition: false,
   groupCells: 3,
   contain: true,
-  pageDots: false
+  pageDots: false,
+  prevNextButtons: false,
 });
 
 // element argument can be a selector string

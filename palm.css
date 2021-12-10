@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
 
+html {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
 body {
     background: black;
 }
@@ -16,6 +26,31 @@ p {
 
 .big {
     font-size: 25px;
+}
+
+.glasses {
+    color: black;
+}
+
+.big2 {
+    font-size: 25px;
+    margin-left: 30px;
+    margin-right: 40%;
+    line-height: 2.5;
+}
+
+.bigbigbig {
+    font-size: 75px;
+    padding: 50px;
+    line-height: 1.5;
+    opacity: .7;
+}
+
+span.bigbigbig2 {
+    font-size: 75px;
+    padding: 50px;
+    line-height: 1.5;
+    margin: -40px;
 }
 
 .tran {
@@ -72,4 +107,196 @@ br {
 .isaac {
     background: url(images/isaacsoft.png) no-repeat center center;
     height: 1500px;
+}
+
+.coloreye {
+    background: url(images/isaaceye.png) no-repeat center center;
+    height: 1500px;
+    overflow: hidden;
+}
+
+
+/*Animation*/
+.shake {
+    animation-name: shake;
+    animation-duration: .4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    2% {
+        transform: translate(0, 6px) rotate(0);
+      }
+      4% {
+        transform: translate(0, -1px) rotate(0);
+      }
+      6% {
+        transform: translate(0, -7px) rotate(0);
+      }
+      8% {
+        transform: translate(0, -1px) rotate(0);
+      }
+      10% {
+        transform: translate(0, 9px) rotate(0);
+      }
+      12% {
+        transform: translate(0, 1px) rotate(0);
+      }
+      14% {
+        transform: translate(0, 3px) rotate(0);
+      }
+      16% {
+        transform: translate(0, 6px) rotate(0);
+      }
+      18% {
+        transform: translate(0, 0px) rotate(0);
+      }
+      20% {
+        transform: translate(0, 2px) rotate(0);
+      }
+      22% {
+        transform: translate(0, 1px) rotate(0);
+      }
+      24% {
+        transform: translate(0, 3px) rotate(0);
+      }
+      26% {
+        transform: translate(0, 4px) rotate(0);
+      }
+      28% {
+        transform: translate(0, 0px) rotate(0);
+      }
+      30% {
+        transform: translate(0, -8px) rotate(0);
+      }
+      32% {
+        transform: translate(0, 6px) rotate(0);
+      }
+      34% {
+        transform: translate(0, 6px) rotate(0);
+      }
+      36% {
+        transform: translate(0, -4px) rotate(0);
+      }
+      38% {
+        transform: translate(0, 2px) rotate(0);
+      }
+      40% {
+        transform: translate(0, -8px) rotate(0);
+      }
+      42% {
+        transform: translate(0, -9px) rotate(0);
+      }
+      44% {
+        transform: translate(0, -3px) rotate(0);
+      }
+      46% {
+        transform: translate(0, 0px) rotate(0);
+      }
+      48% {
+        transform: translate(0, -7px) rotate(0);
+      }
+      50% {
+        transform: translate(0, 0px) rotate(0);
+      }
+      52% {
+        transform: translate(0, 3px) rotate(0);
+      }
+      54% {
+        transform: translate(0, -4px) rotate(0);
+      }
+      56% {
+        transform: translate(0, 3px) rotate(0);
+      }
+      58% {
+        transform: translate(0, -9px) rotate(0);
+      }
+      60% {
+        transform: translate(0, 9px) rotate(0);
+      }
+      62% {
+        transform: translate(0, -6px) rotate(0);
+      }
+      64% {
+        transform: translate(0, 0px) rotate(0);
+      }
+      66% {
+        transform: translate(0, -4px) rotate(0);
+      }
+      68% {
+        transform: translate(0, 1px) rotate(0);
+      }
+      70% {
+        transform: translate(0, 5px) rotate(0);
+      }
+      72% {
+        transform: translate(0, 0px) rotate(0);
+      }
+      74% {
+        transform: translate(0, -6px) rotate(0);
+      }
+      76% {
+        transform: translate(0, -3px) rotate(0);
+      }
+      78% {
+        transform: translate(0, 3px) rotate(0);
+      }
+      80% {
+        transform: translate(0, 6px) rotate(0);
+      }
+      82% {
+        transform: translate(0, 2px) rotate(0);
+      }
+      84% {
+        transform: translate(0, -3px) rotate(0);
+      }
+      86% {
+        transform: translate(0, 1px) rotate(0);
+      }
+      88% {
+        transform: translate(0, 1px) rotate(0);
+      }
+      90% {
+        transform: translate(0, 10px) rotate(0);
+      }
+      92% {
+        transform: translate(0, -2px) rotate(0);
+      }
+      94% {
+        transform: translate(0, -2px) rotate(0);
+      }
+      96% {
+        transform: translate(0, -6px) rotate(0);
+      }
+      98% {
+        transform: translate(0, -9px) rotate(0);
+      }
+      0%,
+      100% {
+        transform: translate(0, 0) rotate(0);
+      }
+}
+
+/*Foot Stuff (threat)*/
+footer {
+    background-color: red;
+    color: whitesmoke;
+}
+
+footer a {
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s;
+    color: whitesmoke;
+    font-size: 20px;
+    padding: 30px;
+}
+
+footer a:hover {
+    color: black;
+    letter-spacing: 1.2rem;
 }
