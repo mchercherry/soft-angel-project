@@ -14,7 +14,7 @@ html {
 body {
     font-family: 'Caladea', serif;
     /*height: 7603px;*/
-    background: black;
+    background: url(images/static3.gif);
     max-width: 100%;
 }
 
@@ -652,6 +652,14 @@ nav {
 }
 
 @media(max-width: 1921px) {
+
+  body {
+    font-family: 'Caladea', serif;
+    /*height: 7603px;*/
+    background: black;
+    max-width: 100%;
+}
+
   #centerdasite { 
     position: relative;
     top: 0px;
