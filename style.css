@@ -14,9 +14,23 @@ html {
 body {
     font-family: 'Caladea', serif;
     /*height: 7603px;*/
-    background: #F3EFE3;
+    background: url(images/static3.gif);
     max-width: 100%;
 }
+
+#centerdasite::-webkit-scrollbar {
+  display: none;
+  }
+
+#centerdasite { 
+  position: relative;
+  top: 0px;
+  left: 50%;
+  margin-left: -800px;
+  background: #F3EFE3;
+  width: 1570px;
+  scroll-behavior: smooth;
+ }
 
 .light {
     margin: 0 195px;
@@ -191,7 +205,7 @@ nav {
     background-size: cover;
     position: relative;
     height: 500px;
-    width: 100vw;
+    width: 1570px;
     margin: 0 -195px;
 }
 
@@ -214,7 +228,7 @@ nav {
   background-size: cover;
   height: 500px;
   position: relative;
-  width: 100vw;
+  width: 1570px;
   margin: 0 -195px;
 }
 
@@ -290,7 +304,7 @@ nav {
   background-size: cover;
   height: 500px;
   position: relative;
-  width: 99vw;
+  width: 1570px;
   margin: 0 -195px;
 }
 
@@ -415,7 +429,7 @@ nav {
   background-size: cover;
   height: 500px;
   position: relative;
-  width: 100vw;
+  width: 1570px;
   margin: 0 -195px;
 }
 
@@ -445,7 +459,7 @@ nav {
   background-size: cover;
   height: 500px;
   position: relative;
-  width: 99vw;
+  width: 1540px;
   margin: 0 -195px;
 }
 
@@ -635,4 +649,70 @@ nav {
     font-weight: bold;
     font-size: 25px;
   }
+}
+
+@media(max-width: 1921px) {
+
+  body {
+    font-family: 'Caladea', serif;
+    /*height: 7603px;*/
+    background: black;
+    max-width: 100%;
+}
+
+  #centerdasite { 
+    position: relative;
+    top: 0px;
+    left: 50%;
+    margin-left: -765px; 
+    background: #F3EFE3;
+    max-width: 1920px;
+    scroll-behavior: smooth;
+   }
+
+   .hero {
+    background: url(images/SAPgs1.png);
+    background-size: cover;
+    position: relative;
+    height: 500px;
+    width: 1920px;
+    margin: 0 -195px;
+}
+
+.section2 {
+  background: url(images/SAPgs2.png);
+  background-size: cover;
+  height: 500px;
+  position: relative;
+  width: 1920px;
+  margin: 0 -195px;
+}
+
+#IDEM {
+  background: url(images/SAPgs3.png);
+  background-size: cover;
+  height: 500px;
+  position: relative;
+  width: 1920px;
+  margin: 0 -195px;
+}
+
+.section4 {
+  background: url(images/SAPgs4.png);
+  background-size: cover;
+  height: 500px;
+  position: relative;
+  width: 1920px;
+  margin: 0 -195px;
+}
+
+#today {
+  background: url(images/SAPgs5.png);
+  background-size: cover;
+  height: 500px;
+  position: relative;
+  width: 1920px;
+  margin: 0 -195px;
+}
+
 }
