@@ -65,11 +65,38 @@ p {
     opacity: .7;
 }
 
-span.bigbigbig2 {
+.bigbigbig2 {
     font-size: 75px;
     padding: 50px;
     line-height: 1.5;
     margin: -40px;
+}
+
+.big5 {
+  font-size: 55px;
+  margin-left: 0px;
+  margin-right: 0px;
+  line-height: 2;
+}
+
+.END {
+  font-size: 105px;
+  margin: 0 auto;
+  color: blue;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 100px;
+  text-align: center;
+  letter-spacing: 1.2rem;
+  transition: .5s;
+  margin-bottom: 200px;
+  font-family: serif;
+}
+
+.END:hover {
+  color: yellow;
+  letter-spacing: 1.3rem;
+  cursor: default;
 }
 
 .tran {
@@ -179,6 +206,26 @@ br {
 
 .hallwayangel2 {
   background: url(images/violent2.png) no-repeat center center;
+  height: 1000px;
+}
+
+.hallwayangel3 {
+  background: url(images/violent3.png) no-repeat center center;
+  height: 1000px;
+}
+
+.hallwayangelVIOLENT {
+  background: url(images/violent5.png) no-repeat center center;
+  height: 1300px;
+}
+
+.HAND {
+  background: url(images/HANDHANDHANDHAND.png) no-repeat center center;
+  height: 1000px;
+}
+
+.farewell {
+  background: url(images/Louis3.png) no-repeat center center; 
   height: 1000px;
 }
 
