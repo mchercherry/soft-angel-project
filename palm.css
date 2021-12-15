@@ -129,6 +129,11 @@ br {
     height: 1000px;
 }
 
+.holdme {
+  background: url(images/holdme.png) no-repeat center center;
+  height: 1000px;
+}
+
 .isaac {
     background: url(images/isaacsoft.png) no-repeat center center;
     height: 1500px;
@@ -164,6 +169,16 @@ br {
 
 .fatherinheaven {
   background: url(images/hurt2.png) no-repeat center center;
+  height: 1000px;
+}
+
+.hallwayangel1 {
+  background: url(images/violent1.png) no-repeat center center;
+  height: 1000px;
+}
+
+.hallwayangel2 {
+  background: url(images/violent2.png) no-repeat center center;
   height: 1000px;
 }
 
