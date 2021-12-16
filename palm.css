@@ -395,6 +395,7 @@ br {
 footer {
     background-color: red;
     color: whitesmoke;
+    position: relative;
 }
 
 footer a {
@@ -409,7 +410,26 @@ footer a {
     padding: 30px;
 }
 
+footer .cherry {
+  font-size: 14px;
+  letter-spacing: 3px;
+  font-family: serif;
+  text-decoration: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: none;
+    padding: 10px;
+    font-style: italic;
+}
+
 footer a:hover {
     color: black;
     letter-spacing: 1.2rem;
+}
+
+footer .cherry:hover {
+  color: whitesmoke;
+  letter-spacing: 3px;
 }
